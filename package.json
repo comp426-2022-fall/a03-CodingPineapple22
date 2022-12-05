@@ -4,7 +4,7 @@
   "description": "module-based line in Node.js",
   "main": "./lib/roll.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "roll-dice --sides=10 --dice=2 --rolls=3"
   },
   "repository": {
     "type": "git",
