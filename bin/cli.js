@@ -10,5 +10,5 @@ sides = arg.side ? arg.sides : 6
 dice = arg.dice ? arg.dice:2;
 rolls = arg.rolls? arg.rolls: 1; 
 
-console.log(JSON.stringify(roll(sides, dice, rolls)));
+console.log(roll(sides, dice, rolls));
 
