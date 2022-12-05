@@ -4,7 +4,7 @@
   "description": "module-based line in Node.js",
   "main": "./lib/roll.js",
   "scripts": {
-    "test": "node ./bin/cli.js --sides=10 --dice=2 --rolls=3"
+    "test": "roll-dice --sides=10 --dice=2 --rolls=3"
   },
   "bin": {
     "roll-dice": "./bin/cli.js"
