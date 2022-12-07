@@ -4,7 +4,7 @@ import { roll } from "/lib/roll.js"
 
 const arg = minimist(process.argv.slice(2));
 
-const sides = arg.side ? arg.sides : 6
+const sides = arg.sides ? arg.sides : 6
 const dice = arg.dice ? arg.dice:2;
 const rolls = arg.rolls? arg.rolls: 1; 
 
