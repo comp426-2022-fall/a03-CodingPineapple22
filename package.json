@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "module-based line in Node.js",
   "main": "./lib/roll.js",
+  "type": "module",
   "scripts": {
-    "test": "roll-dice --sides=10 --dice=2 --rolls=3"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
     "roll-dice": "./bin/cli.js"
@@ -21,6 +22,5 @@
   "homepage": "https://github.com/comp426-2022-fall/a03-CodingPineapple22#readme",
   "dependencies": {
     "minimist": "^1.2.7"
-  },
-  "type":"module"
+  }
 }
